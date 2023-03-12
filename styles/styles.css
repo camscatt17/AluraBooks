@@ -1,0 +1,8 @@
+:root {
+    --cor-primaria: #EBECEE;    
+}
+
+body{
+    background-color: var(--cor-primaria);
+}
+
