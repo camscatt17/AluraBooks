@@ -38,11 +38,21 @@
     .topicos__lista__itens__link{
         font-size: 24px;
     }
+
+    .topicos__lista__itens__link:hover {
+        color: var(--cor-terciaria);
+        background-color: var(--cor-secundaria);
+    }
     
 }
 
 @media screen and (min-width: 1728px) {
     .topicos{
         padding: 3em 30vw;
-    }   
+    }
+    
+    .topicos__lista__itens__link:hover {
+        color: var(--cor-terciaria);
+        background-color: var(--cor-secundaria);
+    }
 }

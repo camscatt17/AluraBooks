@@ -43,6 +43,10 @@ hr{
         margin-left: 0.5em;
         font-size: 14px;
     }
+
+    .rodape__lista__item__link:hover{
+        color: var(--cor-terciaria);
+    }
     
 }
 
@@ -54,6 +58,10 @@ hr{
     .rodape__lista{
         border-left: 1px solid var(--cor-cinza-secundario);
         padding-left: 1em;
+    }
+
+    .rodape__lista__item__link:hover{
+        color: var(--cor-terciaria);
     }
     
 }
